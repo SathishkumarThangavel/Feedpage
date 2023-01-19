@@ -1,0 +1,36 @@
+.layoutContainer {
+  width: 100%;
+
+  .topBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    background-color: white;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .organization {
+    display: flex;
+    align-items: center;
+    min-width: 175px;
+    justify-content: center;
+  }
+
+  .profile {
+    display: flex;
+    align-items: center;
+    min-width: 175px;
+    justify-content: space-around;
+
+    img {
+      border-radius: 50%;
+    }
+  }
+  .contentContainer {
+    max-width: 1550px;
+  }
+}
